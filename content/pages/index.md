@@ -1,8 +1,7 @@
 ---
-template: 'index-template'
-title: 'Gatsby Starter Glass'
+title: is{PLG} - Practical Product Led Growth principles
+template: index-template
 ---
+Practical talk on Product Led Growth & it's best practices.
 
-#Hello World
-
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+Brought to you by: [Amandeep Sandhu](https://www.linkedin.com/in/sandhua) & [Vivek Sinha](https://www.linkedin.com/in/vasinha/). No BS, just quality content.
