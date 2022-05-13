@@ -49,7 +49,9 @@ const ContactForm = () => {
               id="name"
               name="name"
               type="text"
-              ref={register({ required: 'Name is required' })}
+              {...register("Name is required", {
+                required: "Required",
+              })}
             />
             {errors.name && (
               <FormErrorMessage>{errors.name.message}</FormErrorMessage>
@@ -62,13 +64,16 @@ const ContactForm = () => {
               id="email"
               name="email"
               type="text"
-              ref={register({
-                required: 'Email is required.',
-                pattern: {
-                  message: 'Email is not valid.',
-                  value: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
-                },
+              {...register("Email is required.", {
+                required: "Required",
               })}
+              // ref={register({
+              //   required: 'Email is required.',
+              //   pattern: {
+              //     message: 'Email is not valid.',
+              //     value: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
+              //   },
+              // })}
             />
             {errors.email && (
               <FormErrorMessage>{errors.email.message}</FormErrorMessage>
@@ -81,7 +86,9 @@ const ContactForm = () => {
               id="message"
               name="message"
               rows="4"
-              ref={register({ required: 'Message is required' })}
+              {...register("Message is required", {
+                required: "Required",
+              })}
             />
             {errors.message && (
               <FormErrorMessage>{errors.message.message}</FormErrorMessage>
