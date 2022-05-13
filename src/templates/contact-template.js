@@ -46,11 +46,11 @@ const ContactForm = () => {
           <FormGroup>
             <label htmlFor="name">Name</label>
             <input
-              id="name"
-              name="name"
-              type="text"
-              {...register("Name is required", {
-                required: "Required",
+              id='name'
+              name='name'
+              type='text'
+              {...register('Name is required', {
+                required: true,
               })}
             />
             {errors.name && (
@@ -61,11 +61,11 @@ const ContactForm = () => {
           <FormGroup>
             <label htmlFor="email">Email</label>
             <input
-              id="email"
-              name="email"
-              type="text"
-              {...register("Email is required.", {
-                required: "Required",
+              id='email'
+              name='email'
+              type='text'
+              {...register('Email is required', {
+                required: true,
               })}
               // ref={register({
               //   required: 'Email is required.',
@@ -83,11 +83,11 @@ const ContactForm = () => {
           <FormGroup>
             <label htmlFor="message">Your message</label>
             <textarea
-              id="message"
-              name="message"
-              rows="4"
-              {...register("Message is required", {
-                required: "Required",
+              id='message'
+              name='message'
+              rows='4'
+              {...register('Message is required', {
+                required: true,
               })}
             />
             {errors.message && (
