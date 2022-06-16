@@ -1,5 +1,5 @@
 ---
-title: is{PLG} - Practical Product Led Growth principles
+title: is(PLG) - Practical Product Led Growth principles
 template: index-template
 ---
 Practical talk on Product Led Growth & it's best practices.
