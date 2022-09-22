@@ -1,112 +1,52 @@
-# Gatsby Starter Glass
+<div align="center">
+<img src="./public/astro-ink-logo.png" height="140px" title="Astro Ink" />
+</div>
+<br />
+<div align="center">Astro Ink is a minimal theme created to serve minimalistic markdown-based blog needs. It ships with almost all the basic Astro components that you might need while creating light-weight, performant, personal blogs, that focus on shipping less Javascript by default.</div>
+<br />
 
-A Minimal & Beautiful Gatsby Personal Blog Starter With Nice Glassmorphism UI.
+<br/>
+<div align="center">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
+  <img alt="License" src="https://img.shields.io/github/license/one-aalam/astro-ink?style=flat-square&color=5e17eb&labelColor=000000">
+  <a href="https://twitter.com/intent/follow?screen_name=aftabbuddy">
+    <img src="https://img.shields.io/twitter/follow/aftabbuddy?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @aftabbuddy" />
+  </a>
+</div>
+<br/>
 
-[View Live Demo](https://gatsbyglass.netlify.app)
+<img src="./public/astro-banner.png" alt="Astro Banner" />
 
-![demo site screenshot](./screenshot.png)
+It's hugely inspired by [Hugo](https://github.com/knadh/hugo-ink)'s Ink theme and strives to remain light, while providing the basis for a beautiful, minimal blog.
 
 ## Features
+- __Minimal, Crisp, Markdown-Blog Ready__
+- __Uses `astro 1.1.5`__ - It uses Astro's latest `1.1.5` release under the hood
+- __Svelte Ready__ - In its effort to remain light-weight, performant, and more approachable from Astro's POV, Svelte is used for interactive components like the theme switcher
+- __Modular__ - The structure is highly modular, with components doing just one job, and one job well.
+- __Collection + Dynamic Pages__ - It's ready with Next.js like dynamic pages, to support a tag-based classification system with paginated results, all configurable
+- __Dark Mode & Color Codes__ - It supports dark mode, and __6+__ color modes that's selected using `tailwind.config.js`. You can pass `THEME_KEY` with the `dev` or `build` script/commands ex: `THEME_KEY=purpleheart astro build/dev` to change the color theme being used. All the available themes can be found in [tailwind.theme.config.js](./tailwind.theme.config.js). To customize the blog section, add any of the Tailwind Typography's `prose-{color}` classes as referred [here](./src/components/Prose.astro)
+- __Netlify CMS<sup>*NEW</sup>__ - Add/Edit/Update all the posts in the `/blog` directory by visiting `your-site.netlify.com/admin` ex: [astro-ink.netlify.app/admin](https://astro-ink.netlify.app/admin) with your Netlify credentials. It needs Netlify Identity(https://app.netlify.com/sites/your-site/settings/identity#registration
+) and Git Gateway(https://app.netlify.com/sites/your-site/settings/identity#services) enabled.
+- __Future Posts<sup>*NEW</sup>__(with Github Actions) - Create posts in the `/src/drafts` directory with a future `date` in the `YYYY-MM-DD` format, and let a specially crafted [Github Action](https://github.com/marketplace/actions/ssg-publish-drafts) take care of auto-publishing it on your specified date. You can configure the check interval in [Github Action](https://github.com/one-aalam/astro-ink/blob/main/.github/workflows/main.yml).
+- __Client-Side Search<sup>*NEW</sup>__ - Allow your users get to your blog posts quickly with client-side search feat. Lunr.js
 
-* Fully responsive
-* SEO metadata and Open Graph tags
-* Maximized lighthouse score
-* Contact form with Netlify Form
-* Edit Content with Netlify CMS
-* Easy to deploy
-* Syntax highlighting via PrismJS
+## How to start?
+There's not much to know about commands. Just clone this template, and start working from your clone. You have all the common NPM commands at your disposal like `dev`, `build`, etc. Refer [package.json](./package.json) to see a list of all the available commands.
 
-## Local Install
+## Built with Astro Ink
+- [jamesperkins.dev](https://www.jamesperkins.dev/) - Personal site of developer, YouTube instructor [James R Perkins](https://twitter.com/james_r_perkins)
+- [highlandcows.github.io](https://highlandcows.github.io/) [Nick Jacob](https://github.com/njacobs5074)'s personal blog
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/yinkakun/gatsby-starter-glass
+> know a site built with Astro Ink? Let me know on [Twitter](https://twitter.com/aftabbuddy)
 
-# 2. Navigate into repository
-cd gatsby-starter-glass
+## Wanna learn Astro while building Ink?
+This theme was initially built with first an alpha, and then a beta version of the `Astro` Framework. If you're just starting with `Astro`, you can actually learn `Astro` while building this very theme by following a series of blogs I've written that teaches you Astro ground-up!
 
-# 3. Install the dependencies
-yarn install
-
-# 4. Start the development server
-yarn start
-
-# 5. Start the build mode
-yarn  build
-```
-
-## Configuration
-
-Within gatsby-config.js, you can specify information about your site (metadata) like the site title and description to properly generate meta tags.
-
-```js
-// gatsby-config.js
-
-module.exports = {
-  siteMetadata: {
-    title: `Gatsby Starter Glass`,
-    author: {
-      name: `Yinka Adedire`,
-      summary: `self-taught front-end dev. jamstack enthusaist.`,
-    },
-    description: `A Minimal & Beautiful Gatsby Personal Blog Starter With Nice Glassmorphism Ui.`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
-    social: {
-      twitter: `yinkakun`,
-    },
-  },
-
-  // ...
-};
-```
-
-## Deployment
-
-Netlify is a great way to easily deploy sites plus this starter uses Netlify Form for the Contact form.
-
-- Generate a new repo from this repo which will copy all files from this repo to your newly created repo.
-
-- Go to <https://app.netlify.com>. Once you’ve logged in, click the 'New site from Git' button on your dashboard and choose your newly created repo.
-
-- Follow the prompts, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete.
-
-## Manually Editing contents
-
-### Blog Posts
-
-Blog contents can be updated in markdown format at `content/blog`. Delete placeholder posts and start blogging.
-
-```md
----
-title: Hello World
-date: '2021-05-01'
-description: 'Hello World'
----
-
-This top portion is the beginning of the post and will show up as the excerpt on the homepage.
-```
-
-### Pages
-
-Homepage intro, Contact, and About page content can be updated in Markdown format at `content/pages`.
-
-# Editing Contents with Netlify CMS
-
-This project is preconfigured to work with Netlify CMS.
-When Netlify CMS makes commits to your repo, Netlify will auto-trigger a rebuild / deploy when new commits are made.
-You’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
-
-- Go to <https://app.netlify.com> > select your website from the list.
-- Go to Identity and click Enable Identity.
-- Click on Invite Users and invite yourself. You will receive an email and you need to accept the invitation to set the password.
-- Now headover to Settings > Identity > Services and Enable Git Gateway.
-- You can also manage who can register and log in to your CMS. Go to Settings > Identity > Registration  Registration Preferences. I would prefer to keep it to Invite Only if I am the only one using it.
-- Now, go to to site-name.netlify.app/admin/, and login with your credentials.
-
-Once you are in your Netlify CMS, you can navigate to Posts and Pages. Here you will find a list of existing pages and posts.
-
-## Built with
-
-- Gatsby for Static Site Generation
-- Netlify CMS for content management
-- Styled Component for styling
+Head over to `aalam.in/blog` and know
+- [How to set Astro up and get it running with essential defaults for styling, prototyping, and incremental deployments](https://aalam.in/blog/astro-get-up-and-running)
+- [Managing presentational components and creating Astro pages](https://aalam.in/blog/astro-and-site-strcuture)
+- [Feeding local as well as remote data to the Astro pages](https://aalam.in/blog/astro-and-data)
+- [Putting interactivity where you absolutely cannot do without it in Astro](https://aalam.in/blog/astro-and-interactivity)
+- [Creating data-driven, dynamic pages and paginated results in Astro](https://aalam.in/blog/astro-and-dynamic-pages)
+- [Author your Astro site's content with Git-based CMSs](https://aalam.in/blog/astro-and-git-cms-netlify)

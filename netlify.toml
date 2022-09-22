@@ -1,6 +1,2 @@
-[build]
-  publish = "public"
-  command = "yarn build"
-
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+[functions]
+    external_node_modules = ["astro", "vscode-oniguruma"]
