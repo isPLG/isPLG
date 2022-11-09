@@ -26,7 +26,7 @@ export const NAV_ITEMS: NavItems = {
 export const SITE = {
     // Your site's detail?
     name: 'isPLG',
-    title: 'isPLG',
+    title: '>is{PLG}',
     description: 'Practical Talks On Product Led Growth & Best Practices.',
     url: 'https://isPLG.com',
     githubUrl: 'https://github.com/isPLG/isPLG',
