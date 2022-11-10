@@ -146,8 +146,8 @@ module.exports = {
      */
     nightrider: {
         colors: {
-            primary: colors.red[700],
-            secondary: colors.red[800],
+            primary: colors.slate[700],
+            secondary: colors.slate[800],
             dark: {
                 primary: colors.slate[100],
                 secondary: colors.slate[200]
