@@ -3,8 +3,7 @@ const config = require('./tailwind.theme.config')
 /**
  * Find the applicable theme color palette, or use the default one
  */
-const themeConfig = 'ambersky'
-/**process.env.THEME_KEY && config[process.env.THEME_KEY] ? config[process.env.THEME_KEY] : config.default**/
+const themeConfig = process.env.THEME_KEY && config[process.env.THEME_KEY] ? config[process.env.THEME_KEY] : config.ambersky
 const { colors } = themeConfig
 module.exports = {
     darkMode: 'class',
