@@ -149,8 +149,8 @@ module.exports = {
             primary: colors.slate[700],
             secondary: colors.slate[800],
             dark: {
-                primary: colors.slate[300],
-                secondary: colors.slate[500]
+                primary: colors.slate[100],
+                secondary: colors.slate[200]
             },
             accent: {
                 gray: {
