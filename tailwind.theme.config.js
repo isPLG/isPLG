@@ -142,6 +142,26 @@ module.exports = {
         }
     },
     /**
+     * Color Palette - Nightrider
+     */
+    nightrider: {
+        colors: {
+            primary: colors.state[300],
+            secondary: colors.state[500],
+            dark: {
+                primary: colors.state[700],
+                secondary: colors.state[800]
+            },
+            accent: {
+                gray: {
+                    light: colors.gray[300],
+                    dark: colors.gray[500]
+                },
+                default: colors.blue[700]
+            }
+        }
+    },
+    /**
      * Color Palette - Default/Duplicate of Purple Heart (Never remove this)
      */
     default: {
