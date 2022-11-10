@@ -154,8 +154,8 @@ module.exports = {
             },
             accent: {
                 gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
+                    light: colors.slate[300],
+                    dark: colors.slate[500]
                 },
                 default: colors.blue[700]
             }
