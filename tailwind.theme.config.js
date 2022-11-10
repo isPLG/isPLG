@@ -146,11 +146,11 @@ module.exports = {
      */
     nightrider: {
         colors: {
-            primary: colors.state[300],
-            secondary: colors.state[500],
+            primary: colors.slate[700],
+            secondary: colors.slate[800],
             dark: {
-                primary: colors.state[700],
-                secondary: colors.state[800]
+                primary: colors.slate[300],
+                secondary: colors.slate[500]
             },
             accent: {
                 gray: {
