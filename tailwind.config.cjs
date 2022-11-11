@@ -34,11 +34,11 @@ module.exports = {
 			    borderColor: "#38bdf8"
                         },
                         blockquote: {
-                            color: theme("colors.blue.800"),
-                            borderColor: theme("colors.red.500")
+                            color: colors.primary,
+                            borderColor: "red"
                         },
                         'blockquote > p::before, p::after': {
-                            color: theme("colors.blue.300"),
+                            color: colors.primary,
                         },
                         h1: {
                             color: colors.dark.secondary,
