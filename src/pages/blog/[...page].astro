@@ -7,6 +7,8 @@ import { PAGE_SIZE } from '$/config'
 let title = 'Blog'
 let description = 'All the articles posted so far...'
 
+const tags = [...new Set([].concat.apply([], allPosts.map(post => post.frontmatter.tags)))]
+
 export async function getStaticPaths({ paginate }) {
   const allPosts = await Astro.glob('./*.md');
   const sortedPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
