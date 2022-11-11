@@ -38,7 +38,7 @@ module.exports = {
                             borderColor: theme("colors.slate.200")
                         },
                         'blockquote > p::before, p::after': {
-                            color: theme("colors.slate.200"),
+                            color: theme("colors.red.200"),
                         },
                         h1: {
                             color: colors.dark.secondary,
