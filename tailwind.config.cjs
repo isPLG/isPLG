@@ -27,9 +27,9 @@ module.exports = {
                     css: {
 			color: theme("colors.gray.200"),
                         a: {
-                            color: colors.dark.primary,
+                            color: theme("colors.blue.600"),
                               '&:hover': {
-                                color: colors.primary
+                                color: theme("colors.blue.700")
                               }
                         },
                         blockquote: {
