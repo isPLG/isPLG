@@ -35,7 +35,7 @@ module.exports = {
                         },
                         blockquote: {
                             color: colors.accent.light,
-                            borderColor: colors.accent.light,
+                            borderColor: colors.accent.lighter,
                         },
                         'blockquote > p::before, p::after': {
                             color: colors.accent.light,
