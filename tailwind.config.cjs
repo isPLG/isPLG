@@ -30,7 +30,7 @@ module.exports = {
                             color: theme("colors.blue.500"),
                               '&:hover': {
                                 color: theme("colors.blue.600")
-                              }
+                              },
                         },
                         blockquote: {
                             color: theme("colors.slate.400"),
@@ -56,9 +56,9 @@ module.exports = {
                 DEFAULT: {
                     css: {
                         a: {
-                            color: colors.primary,
+                            color: theme("colors.blue.600"),
                               '&:hover': {
-                                color: colors.primary
+                                color: theme("colors.blue.700")
                               },
                         },
                         blockquote: {
