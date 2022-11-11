@@ -36,7 +36,7 @@ module.exports = {
                         a: {
                             color: colors.dark.primary,
                               '&:hover': {
-                                color: colors.primary,
+                                color: colors.primary
                               },
                         },
                         blockquote: {
