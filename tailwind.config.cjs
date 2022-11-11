@@ -50,7 +50,7 @@ module.exports = {
                             color: colors.dark.secondary,
                         },
 			p: {
-			    colors.dark.secondary,
+			    color: colors.dark.secondary,
 			},
                     },
                 },
