@@ -126,8 +126,8 @@ module.exports = {
      */
     rosegarden: {
         colors: {
-            primary: colors.rose[700],
-            secondary: colors.rose[800],
+            primary: colors.rose[600],
+            secondary: colors.rose[700],
             dark: {
                 primary: colors.rose[300],
                 secondary: colors.rose[500]
