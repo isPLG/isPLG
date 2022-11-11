@@ -30,7 +30,7 @@ module.exports = {
                             color: colors.dark.primary,
                               '&:hover': {
                                 color: colors.primary
-                              },
+                              }
                         },
                         blockquote: {
                             color: colors.primary,
