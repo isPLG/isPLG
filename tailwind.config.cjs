@@ -38,7 +38,7 @@ module.exports = {
                             borderColor: "red"
                         },
                         'blockquote > p::before, p::after': {
-                            color: colors.primary,
+                            color: "blue",
                         },
                         h1: {
                             color: colors.dark.secondary,
