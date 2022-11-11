@@ -19,6 +19,11 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props
 ---
 <DefaultPageLayout content={{ title, description }}>
+    <ul class="tag-list">
+     {tags.map((tag) => (
+        <li><a class="tag" href={`/tags/${tag}`} title={`View posts tagged under "${tag}"`}>{tag}</a></li>
+    ))}
+    </ul>
     <PostPreviewList posts={page.data} />
     <Paginator page={page} />
 </DefaultPageLayout>
