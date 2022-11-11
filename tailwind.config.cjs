@@ -31,6 +31,7 @@ module.exports = {
                               '&:hover': {
                                 color: theme("colors.blue.600")
                               },
+			    border-bottom-color: "#38bdf8"
                         },
                         blockquote: {
                             color: theme("colors.slate.400"),
