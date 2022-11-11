@@ -154,6 +154,7 @@ module.exports = {
             },
             accent: {
                 gray: {
+                    lighter: colors.slate[100],
                     light: colors.slate[300],
                     dark: colors.slate[500]
                 },
