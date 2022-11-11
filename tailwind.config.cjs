@@ -25,7 +25,10 @@ module.exports = {
             typography: (theme) => ({
                 dark: {
                     css: {
-                        color: theme("colors.red.200"),
+                        color: theme("colors.gray.200"),
+			p: {
+				color: colors.slate[400],
+			},
                     },
                 },
                 DEFAULT: {
