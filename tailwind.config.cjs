@@ -25,14 +25,6 @@ module.exports = {
             typography: (theme) => ({
                 dark: {
                     css: {
-                        color: theme("colors.gray.200"),
-			p: {
-				color: theme("colors.slate.100")
-			},
-                    },
-                },
-                DEFAULT: {
-                    css: {
                         a: {
                             color: colors.dark.primary,
                               '&:hover': {
@@ -54,6 +46,32 @@ module.exports = {
                         },
                         h3: {
                             color: colors.dark.secondary,
+                        },
+                    },
+                },
+                DEFAULT: {
+                    css: {
+                        a: {
+                            color: colors.primary,
+                              '&:hover': {
+                                color: colors.primary
+                              },
+                        },
+                        blockquote: {
+                            color: colors.primary,
+                            borderColor: colors.primary
+                        },
+                        'blockquote > p::before, p::after': {
+                            color: colors.primary,
+                        },
+                        h1: {
+                            color: colors.secondary,
+                        },
+                        h2: {
+                            color: colors.secondary,
+                        },
+                        h3: {
+                            color: colors.secondary,
                         },
                     }
                 },
