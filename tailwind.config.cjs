@@ -33,7 +33,7 @@ module.exports = {
                               }
                         },
                         blockquote: {
-                            color: colors.primary,
+                            color: theme("colors.slate.400"),
                             borderColor: colors.dark.primary
                         },
                         'blockquote > p::before, p::after': {
