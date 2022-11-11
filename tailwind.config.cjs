@@ -27,7 +27,7 @@ module.exports = {
                     css: {
                         color: theme("colors.gray.200"),
 			p: {
-				color: colors.slate[400],
+				color: colors.slate.400,
 			},
                     },
                 },
