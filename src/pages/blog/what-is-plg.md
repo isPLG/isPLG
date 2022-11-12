@@ -21,6 +21,8 @@ Traditional B2B sales motions that focused on lead gen and a sales led approach 
 
 Now all of this is table stakes and we know it. Great PLG companies also focus on creating or re-inventing the flow. More on this later.
 
+![what_is_plg](https://user-images.githubusercontent.com/14086319/201497010-ad6bca17-164c-4b31-9a02-5b1d0c1a3fb1.jpg)
+
 ## PLG in action
 
 At it’s core, PLG is all about optimizing the customer journey from value promise & delivery. This includes pricing and packing your features in way that there is concrete value and a clear path from Free/Freemium to Paid to Enterprise (if applicable).
