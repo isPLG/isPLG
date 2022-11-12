@@ -126,8 +126,8 @@ module.exports = {
      */
     rosegarden: {
         colors: {
-            primary: colors.rose[700],
-            secondary: colors.rose[800],
+            primary: colors.rose[600],
+            secondary: colors.rose[700],
             dark: {
                 primary: colors.rose[300],
                 secondary: colors.rose[500]
@@ -136,6 +136,27 @@ module.exports = {
                 gray: {
                     light: colors.gray[300],
                     dark: colors.gray[500]
+                },
+                default: colors.blue[700]
+            }
+        }
+    },
+    /**
+     * Color Palette - Nightrider
+     */
+    nightrider: {
+        colors: {
+            primary: colors.slate[700],
+            secondary: colors.slate[800],
+            dark: {
+                primary: colors.slate[100],
+                secondary: colors.slate[200]
+            },
+            accent: {
+                gray: {
+                    lighter: colors.slate[100],
+                    light: colors.slate[300],
+                    dark: colors.slate[500]
                 },
                 default: colors.blue[700]
             }
