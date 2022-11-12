@@ -5,6 +5,7 @@ description: Product-led growth (PLG) is a go-to-market (GTM) strategy where you
 tags:
   - PLG
   - product led growth
+  - blog
 author: Amandeep Sandhu
 authorTwitter: sandhu08
 date: 2022-11-05
