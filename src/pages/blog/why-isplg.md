@@ -15,7 +15,7 @@ category: PLG
 
 The product-led growth concepts are so easy to understand but hard to implement. We strongly believe that PLG is a strong customer-centric GTM strategy and implement these concepts in our daily work (or at least try to). isPLG is an effort to share best practices and specifically tie concepts to practical applications. 
 
-Secondly, we want to talk to the practitioners in the community and get tips/tricks that we all can try for ourselves. We have a few folks in our network that we will request to come over and share their expertise over the coming weeks. And if you have any suggestions, please contact me or Vivek.
+Secondly, we want to talk to the practitioners in the community and get tips/tricks that we all can try for ourselves. We have a few folks in our network that we will request to come over and share their expertise over the coming weeks. And if you have any suggestions, please contact [me](https://www.linkedin.com/in/sandhua) or [Vivek](https://www.linkedin.com/in/vasinha/).
 
 ## Format
 
