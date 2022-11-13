@@ -11,11 +11,11 @@ export async function getStaticPaths({ paginate }) {
   const allPosts = await Astro.glob('../../blog/*.md')
   const allTags = new Set()
   allPosts.map(post => {
-      post.frontmatter.tags && post.frontmatter.tags.map(tag => allTags.add(tag.lowercase()))
+      post.frontmatter.tags && post.frontmatter.tags.map(tag => allTags.add(tag.toLowerCase()))
   })
 
   return Array.from(allTags).map((tag) => {
-    const filteredPosts = allPosts.filter((post) => post.frontmatter.tags.includes(tag)) || post.frontmatter.tags.includes(tag.uppercase()))
+    const filteredPosts = allPosts.filter((post) => post.frontmatter.tags.includes(tag)) || post.frontmatter.tags.includes(tag.toUpperCase()))
     return paginate(filteredPosts, {
       params: { tag },
       pageSize: PAGE_SIZE
