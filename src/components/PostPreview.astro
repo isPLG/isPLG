@@ -8,9 +8,6 @@ const { frontmatter: post, url } = Astro.props.post
             <span class="post-preview__date__day">{ new Date(post.date).getDate() }</span>
             <span class="post-preview__date__month-n-year">{ `${getMonthName(post.date)} ${new Date(post.date).getFullYear()}` }</span>
         </div>
-        <div>
-            <span>🎙️</span>
-        </div>
     </div>
     <div class="justify-center text-xl text-center">
         <span>🎙️</span>
