@@ -9,7 +9,7 @@ tags:
 author: Amandeep Sandhu
 authorTwitter: sandhu08
 date: 2022-11-13
-image: https://images.unsplash.com/photo-1589409514187-c21d14df0d04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
+image: https://github.com/isPLG/isPLG/blob/fec3ec2a153930ae5c14e03eeb27b905d346bced/public/images/uploads/Why%20isPLG%20-%20Introducing%20isPLG.png
 category: PLG
 ---
 
