@@ -53,7 +53,7 @@ module.exports = {
 			    color: colors.dark.secondary,
 			},
 			code: {
-			    color: colors.dark.accent.gray.light,
+			    color: colors.accent.light,
 			},
                     },
                 },
