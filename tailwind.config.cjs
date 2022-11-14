@@ -52,6 +52,9 @@ module.exports = {
 			p: {
 			    color: colors.dark.secondary,
 			},
+			code: {
+			    color: colors.dark.accent.gray.light,
+			},
                     },
                 },
                 DEFAULT: {
