@@ -3,7 +3,7 @@ layout: $/layouts/post.astro
 title: WHY is{PLG}?
 description: isPLG is an effort to share best practices and specifically tie concepts to practical applications.
 tags:
-  - PLG
+  - plg
   - product led growth
   - blog
 author: Amandeep Sandhu
