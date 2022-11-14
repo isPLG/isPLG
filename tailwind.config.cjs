@@ -52,6 +52,13 @@ module.exports = {
 			p: {
 			    color: colors.dark.secondary,
 			},
+                        p, code: {
+                            color: colors.accent.light,
+                            borderColor: colors.accent.lighter,
+                        },
+                        'p, code > p::before, p::after': {
+                            color: colors.accent.light,
+                        }
                     },
                 },
                 DEFAULT: {
