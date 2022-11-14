@@ -1,6 +1,6 @@
 ---
 layout: $/layouts/post.astro
-title: Why is{PLG}?
+title: WHY is{PLG}?
 description: isPLG is an effort to share best practices and specifically tie concepts to practical applications.
 tags:
   - plg
