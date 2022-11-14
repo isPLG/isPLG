@@ -5,10 +5,11 @@ import PostPreviewList from '$/components/PostPreviewList.astro'
 
 const title = 'Home'
 const description = 'Practical Talks On Product Led Growth & Best Practices.'
+const image = 'https://user-images.githubusercontent.com/14086319/201532907-4ece9271-20eb-4c72-8581-337bb851a44d.png'
 
 const posts = await Astro.glob('./blog/*.md')
 ---
-<DefaultPageLayout content={{ title, description }} showPageHeader={false}>
+<DefaultPageLayout content={{ title, description, image }} showPageHeader={false}>
     <PostPreviewList posts={posts} />
     <div class="page__actions">
         <a class="action__go-to-blog" href="/blog" title="All Posts">All Posts &rarr;</a>

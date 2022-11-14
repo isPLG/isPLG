@@ -30,8 +30,7 @@ export const SITE = {
     description: 'Practical Talks On Product Led Growth & Best Practices.',
     url: 'https://isPLG.com',
     githubUrl: 'https://github.com/isPLG/isPLG',
-    listDrafts: true,
-    image: 'https://user-images.githubusercontent.com/14086319/201532907-4ece9271-20eb-4c72-8581-337bb851a44d.png'
+    listDrafts: true
     // description ?
 }
 
