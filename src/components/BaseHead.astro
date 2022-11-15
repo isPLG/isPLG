@@ -36,30 +36,28 @@
     <meta name="msapplication-config" content="/browserconfig.xml"/>
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- Open Graph Tags (Facebook) -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={title} />
-    {permalink &&
-        <meta property="og:url" content={permalink} />
-    }
-    {description &&
-        <meta property="og:description" content={description} />
-    }
-    {image &&
-        <meta property="og:image" content={image} />
-    }
+        
+    <!-- Open Graph Tags -->
+    <!-- HTML Meta Tags -->
+    <title>{title}</title>
+    <meta name="description" content={description}>
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content={title} />
-    {permalink &&
-        <meta property="twitter:url" content={permalink} />
-    }
-    {description &&
-        <meta property="twitter:description" content={description} />
-    }
-    {image &&
-        <meta property="twitter:image" content={image} />
-    }
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content={permalink}>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content={title}>
+    <meta property="og:description" content={description}>
+    <meta property="og:image" content={image}>
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="isplg.com">
+    <meta property="twitter:url" content={permalink}>
+    <meta name="twitter:title" content={title}>
+    <meta name="twitter:description" content={description}>
+    <meta name="twitter:image" content={image}>
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+  
 
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
