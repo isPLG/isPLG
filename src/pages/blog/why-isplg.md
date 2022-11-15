@@ -9,9 +9,11 @@ tags:
 author: Amandeep Sandhu
 authorTwitter: sandhu08
 date: 2022-11-13
-image: https://github.com/isPLG/isPLG/blob/fec3ec2a153930ae5c14e03eeb27b905d346bced/public/images/uploads/Why%20isPLG%20-%20Introducing%20isPLG.png
+image: public/images/uploads/Why isPLG - Introducing isPLG.png
 category: PLG
 ---
+
+
 
 The product-led growth concepts are so easy to understand but hard to implement. We strongly believe that PLG is a strong customer-centric GTM strategy and implement these concepts in our daily work (or at least try to). isPLG is an effort to share best practices and specifically tie concepts to practical applications. 
 
