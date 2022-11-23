@@ -52,3 +52,5 @@ Your product is designed to solve a specific set of problems for your customer. 
 Companies like GitHub have built their own flow where they have taught the world around how to contributing to open source projects (PR flow) which then gets translated to everyone’s software development workflow as well. Salesforce brought in the whole Lead → Contact → Account → Opportunity flow. Figma invented the new design flow in the cloud around collaboration. I am currently excited about building the web development flow at Netlify.
 
 Creating these flows and developing a PLG strategy go hand in hand.
+
+<iframe src="https://anchor.fm/isplg/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
