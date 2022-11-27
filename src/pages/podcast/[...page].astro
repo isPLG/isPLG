@@ -1,1 +1,46 @@
+---
+import DefaultPageLayout from '$/layouts/default.astro'
+import PostPreviewList from '$/components/PostPreviewList.astro'
+import Paginator from '$/components/Paginator.astro'
+import { PAGE_SIZE } from '$/config'
 
+let title = 'Podcast'
+let description = 'isPLG Podcast'
+
+
+const allPosts = await Astro.glob('../podcast/*.md');
+allPosts = allPosts.filter(post => post.frontmatter.type == 'Podcast');
+
+const tags = [...new Set([].concat.apply([], allPosts.map(post => post.frontmatter.tags)))]
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await Astro.glob('./*.md');
+  const sortedPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    return paginate(sortedPosts, {
+      pageSize: PAGE_SIZE
+    })
+}
+
+const { page } = Astro.props
+---
+<DefaultPageLayout content={{ title, description }}>
+  <div>
+    <ul class="tag-list">
+     {tags.map((tag) => (
+        <li><a class="tag" href={`/tags/${tag}`} title={`View posts tagged under "${tag}"`}>{tag}</a></li>
+    ))}
+    </ul>
+  </div>
+    <PostPreviewList posts={page.data} />
+    <Paginator page={page} />
+</DefaultPageLayout>
+
+<style>
+    .tag-list {
+        @apply list-none my-5 flex gap-2 flex-wrap
+    }
+    .tag {
+        @apply inline-block text-xl px-4 py-1 rounded-full drop-shadow dark:border-0 text-theme-primary bg-theme-dark-primary dark:bg-theme-primary dark:text-theme-dark-primary hover:bg-theme-primary hover:text-theme-dark-primary dark:hover:bg-theme-dark-primary dark:hover:text-theme-primary
+    }
+</style>
