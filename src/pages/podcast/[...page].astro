@@ -8,7 +8,7 @@ let title = 'Podcast'
 let description = 'isPLG Podcast'
 
 
-const allPosts = await Astro.glob('../podcast/*.md');
+let allPosts = await Astro.glob('../podcast/*.md');
 allPosts = allPosts.filter(post => post.frontmatter.type == 'Podcast');
 
 const tags = [...new Set([].concat.apply([], allPosts.map(post => post.frontmatter.tags)))]
