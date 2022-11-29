@@ -1,14 +1,14 @@
 ---
 layout: $/layouts/podcast.astro
-title: 🎙 Introducing is{PLG}
+title: 🎙 isPLG Podcast S01 Ep 01 - What is PLG & Acquisition
 description: A seriously practical Introduction to Product Led Growth (PLG) and a deep dive into Acquisition.
 tags:
   - podcast
   - plg
 author: Amandeep Sandhu
 authorTwitter: sandhu08
-date: 2022-11-30
-image: https://images.unsplash.com/photo-1589409514187-c21d14df0d04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80
+date: 2022-11-30 15:30:00
+image: /public/images/uploads/Why isPLG - Introducing isPLG.png
 category: PLG
 season: 1
 episode: 1

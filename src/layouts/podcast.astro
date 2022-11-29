@@ -22,7 +22,7 @@ const { content } = Astro.props
         </div>
         <div class="post__header">
             <div class="flex space-x-6 uppercase text-xs text-slate-500 font-bold my-2.5">
-                <span>September 18, 2022</span>
+                <span>{ new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(content.date))}</span>
                 <span>isPLG</span>
                 <span>Season { content.season }</span>
                 <span>Episode { content.episode }</span>
@@ -41,8 +41,6 @@ const { content } = Astro.props
                 
             </div>
         </div>
-
-        
 
         <Prose>
             <slot />
