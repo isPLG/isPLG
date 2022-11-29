@@ -4,12 +4,11 @@ import PostPreviewList from '$/components/PostPreviewList.astro'
 import Paginator from '$/components/Paginator.astro'
 import { PAGE_SIZE } from '$/config'
 
-let title = 'Podcast'
-let description = 'isPLG Podcast'
+let title = 'isPLG Podcast'
+let description = 'Practical Talks On Product Led Growth'
 
 
-let allPosts = await Astro.glob('../podcast/*.md');
-allPosts = allPosts.filter(post => post.frontmatter.type == 'Podcast');
+const allPosts = await Astro.glob('../podcast/*.md');
 
 const tags = [...new Set([].concat.apply([], allPosts.map(post => post.frontmatter.tags)))]
 
