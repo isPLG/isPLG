@@ -13,6 +13,9 @@ image: https://user-images.githubusercontent.com/14086319/201532907-4ece9271-20e
 category: PLG
 ---
 
+
+<br>
+
 Product-led growth (PLG) is a go-to-market (GTM) strategy where you focus on delivering value via your product with low barriers to entry. This usually involves a self-serve aspect in the product with a synchronized sales-assist motion (if applicable) that employs the consultative sales approach - commonly known as product-led sales. 
 
 On the other hand, functions like Marketing have evolved to be a growth engine in this motion by focusing on product focused content distributed via various channels. The goal here is to drive acquisition or product usage. Another key strategy here that Marketing may drive in collaboration with product is Community Led growth. 
@@ -21,7 +24,6 @@ Traditional B2B sales motions that focused on lead gen and a sales led approach 
 
 Now all of this is table stakes and we know it. Great PLG companies also focus on creating or re-inventing the flow. More on this later.
 
-![what_is_plg](https://user-images.githubusercontent.com/14086319/201532907-4ece9271-20eb-4c72-8581-337bb851a44d.png)
 
 ## PLG in action
 
