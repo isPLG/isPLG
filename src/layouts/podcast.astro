@@ -18,7 +18,6 @@ const { content } = Astro.props
             </div>
             <h1 class="post__title">{ content.title }</h1>
             <h2>{ content.description }</h2>
-            <img src={import{content.image}} class="max-h-0.5 rounded-sm" alt="">
         </div>
         <div class="post__header">
             <div class="flex space-x-6 uppercase text-xs text-slate-500 font-bold my-2.5">
@@ -27,7 +26,7 @@ const { content } = Astro.props
                 <span>Season { content.season }</span>
                 <span>Episode { content.episode }</span>
                 <div class="mb-4">
-                    <img src={content.image} class="max-h-0.5 rounded-sm" alt="">
+                    <img src={content.image} class="max-h-0.5 rounded-sm" alt="" />
                 </div>
                 
             </div>

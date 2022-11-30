@@ -8,7 +8,7 @@ tags:
 author: Amandeep Sandhu
 authorTwitter: sandhu08
 date: 2022-11-30 15:30:00
-image: https://user-images.githubusercontent.com/14086319/204874350-2522c974-7dd6-451e-88d5-29f1afd37cc3.png
+image: https://raw.githubusercontent.com/isPLG/isPLG/master/public/images/uploads/Why%20isPLG%20-%20Introducing%20isPLG.png
 category: PLG
 season: 1
 episode: 1
