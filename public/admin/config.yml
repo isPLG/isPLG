@@ -18,6 +18,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "$/layouts/post.astro"}
+      - { label: 'Post Type', name: 'post_type', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -25,3 +26,11 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Author Twitter Handle', name: 'authorTwitter', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Season', name: 'season', widget: 'string' }
+      - { label: 'Episode', name: 'episode', widget: 'string' }
+      - { label: 'Season And Episode', name: 'seasonEpisodeNumber', widget: 'string' }
+      - { label: 'Spotify Embed URL', name: 'spotifyEmbedURL', widget: 'string' }
+      - { label: 'Spotify Episode Link', name: 'spotifyEpisodeURL', widget: 'string' }
+      - { label: 'Apple Podcast Episode Link', name: 'appleEpisodeURL', widget: 'string' }
+      - { label: 'Amazon Music Episode Link', name: 'amazonEpisodeURL', widget: 'string' }
+      - { label: 'Google Podcast Episode Link', name: 'googleEpisodeURL', widget: 'string' }

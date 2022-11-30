@@ -1,0 +1,72 @@
+---
+import { SITE } from '$/config'
+import MainLayout from '$/components/MainLayout.astro'
+import BaseHead from '$/components/BaseHead.astro'
+import Prose from '$/components/Prose.astro'
+
+const { content } = Astro.props
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={ content.title ? `${ SITE.title } | ${content.title}` : SITE.title } description={ content.description }/>
+    </head>
+    <MainLayout>
+        <div class="post__header">
+            <div class="post__tags">
+                { content.tags.length > 0 && content.tags.map(tag => <a class="post__tag" href={`/tags/${tag}`} title={tag}>{tag}</a>) }
+            </div>
+            <h1 class="post__title">{ content.title }</h1>
+            <h2>{ content.description }</h2>
+            
+        </div>
+        <div class="post__header">
+            <div class="flex space-x-6 uppercase text-xs text-slate-500 font-bold my-2.5">
+                <span>{ new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(content.date))}</span>
+                <span>isPLG</span>
+                <span>Season { content.season }</span>
+                <span>Episode { content.episode }</span>
+            </div>
+            <div>
+                <iframe style="border-radius:2px" src={ content.spotifyEmbedURL }?utm_source=generator&theme=1 width="100%" height="252" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading=""></iframe>
+            </div>
+            <div>
+                Or Listen on
+                <div class="flex flex-row space-x-6 uppercase text-sm text-slate-500 font-bold my-2.5">
+                    <a target="_blank" href={ content.appleEpisodeURL } style="display: inline-block; background-color: #000000; background-image: url(https://www.buzzsprout.com/images/badges/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: 10px 7px; height: 40px; width: 165px;">Listen on Apple Podcasts</a>
+                    <a target="_blank" href={ content.amazonEpisodeURL } style="display: inline-block; background-color: #000000; background-image: url(https://www.buzzsprout.com/images/badges/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: 10px -293px; height: 40px; width: 162px;">Listen on Amazon Music</a>
+                    <a target="_blank" href={ content.googleEpisodeURL } style="display: inline-block; background-color: #000000; background-image: url(https://www.buzzsprout.com/images/badges/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: 10px -113px; height: 40px; width: 165px;">Listen on Google Podcasts</a>
+                    <a target="_blank" href={ content.spotifyEpisodeURL } style="display: inline-block; background-color: #000000; background-image: url(https://www.buzzsprout.com/images/badges/listen-on-embed.svg); background-repeat: no-repeat; border: 1px solid #000000; border-radius: 5px; margin: 0 5px 5px 0; text-indent: -9000px; background-position: 10px -53px; height: 40px; width: 106px;">Listen on Spotify</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <Prose>
+            <slot />
+        </Prose>
+    </MainLayout>
+</html>
+<style>
+    .post__header {
+        @apply py-4 mb-1
+    }
+    .post__title {
+        @apply text-5xl my-2.5 font-extrabold dark:text-slate-200
+    }
+    .post__desc {
+        @apply text-gray-500 dark:text-gray-100
+    }
+    .post__author {
+        @apply no-underline dark:text-white hover:text-theme-primary
+    }
+    .post__date {
+        @apply text-gray-400
+    }
+    .post__tags {
+        @apply inline-flex gap-2
+    }
+    .post__tag {
+        @apply text-gray-400 inline-block text-sm px-4 py-1 rounded-full drop-shadow dark:border-0 text-theme-primary bg-theme-dark-primary dark:bg-theme-primary dark:text-theme-dark-primary hover:bg-theme-primary hover:text-theme-dark-primary dark:hover:bg-theme-dark-primary dark:hover:text-theme-primary mb-1
+    }
+</style>
