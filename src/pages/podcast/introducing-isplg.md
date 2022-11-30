@@ -1,6 +1,6 @@
 ---
 layout: $/layouts/podcast.astro
-title: 🎙 isPLG Podcast S01 Ep 01 - What is PLG & Acquisition
+title: 🎙 isPLG Podcast S01E01 - What is PLG & Acquisition
 description: A seriously practical Introduction to Product Led Growth (PLG) and a deep dive into Acquisition.
 tags:
   - podcast
@@ -28,7 +28,7 @@ In this pilot episode of the isPLG Podcast, hosts [Amandeep Sandhu](https://www.
 ## Show Notes
 The No BS introduction to what Product Led Growth (PLG) truly is.
 
-Hosts Amandeep Sandhu and Vivek Sinha draw on their experience at GitHub, MondoDB, Starbucks to present a seriously practical overview of how to actually implement PLG. With practical tips and actual examples, they give an overview of product led, marketing led and sales led acquisition, community led growth and ecosystems.
+Hosts Amandeep Sandhu and Vivek Sinha draw on their experience at GitHub, MongoDB, Starbucks to present a seriously practical overview of how to implement PLG. With practical tips and actual examples, they give an overview of product led, marketing led and sales led acquisition, community led growth and ecosystems.
 
 
 Following the intro, the dig deeper into Acquisition discuss three different types of acquisition:
