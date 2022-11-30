@@ -18,7 +18,7 @@ const { content } = Astro.props
             </div>
             <h1 class="post__title">{ content.title }</h1>
             <h2>{ content.description }</h2>
-            
+            <img src={import{content.image}} class="max-h-0.5 rounded-sm" alt="">
         </div>
         <div class="post__header">
             <div class="flex space-x-6 uppercase text-xs text-slate-500 font-bold my-2.5">
