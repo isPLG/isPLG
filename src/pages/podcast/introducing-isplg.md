@@ -1,6 +1,6 @@
 ---
 layout: $/layouts/podcast.astro
-title: 🎙 isPLG Podcast S01E01 - What is PLG & Acquisition
+title: 🎙 isPLG Podcast S01E01 - What is PLG & a Deep Dive into Acquisition
 description: A seriously practical Introduction to Product Led Growth (PLG) and a deep dive into Acquisition.
 tags:
   - podcast
