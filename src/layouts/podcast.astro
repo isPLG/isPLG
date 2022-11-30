@@ -26,7 +26,10 @@ const { content } = Astro.props
                 <span>isPLG</span>
                 <span>Season { content.season }</span>
                 <span>Episode { content.episode }</span>
-                <img class="max-w-0" hidden src={content.image} alt={content.title}/>
+                <div class="mb-4">
+                    <img src={content.image} class="max-h-0.5 rounded-sm" alt="">
+                </div>
+                
             </div>
             <div>
                 <iframe style="border-radius:2px" src={ content.spotifyEmbedURL }?utm_source=generator&theme=1 width="100%" height="252" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading=""></iframe>
