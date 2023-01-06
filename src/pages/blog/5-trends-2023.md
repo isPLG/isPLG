@@ -8,7 +8,7 @@ tags:
   - blog
 author: Amandeep Sandhu
 authorTwitter: sandhu08
-date: 2023-01-06
+date: 2023-01-06 15:30:00
 image: https://user-images.githubusercontent.com/14086319/211080923-2db2ebdc-52a3-4d3d-9054-31905b4e7563.gif
 category: PLG
 ---
