@@ -1,7 +1,7 @@
 ---
 layout: $/layouts/post.astro
 title: Growth Data Ecosystem - The Key to Successful a Growth Strategy
-description: Growth Data Ecosystem is the collection of product, marketing, sales and other company data that plays a critical role in the success of Growth strategies and execution of Growth initiatives.
+description: Growth Data plays a critical role in developing and executing a successful PLG stratrgy. Learn how we applied Product, Marketing, Sales and External data to generate $60k in a week.
 tags:
   - plg
   - product led growth
