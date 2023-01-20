@@ -1,7 +1,7 @@
 ---
 layout: $/layouts/post.astro
 title: Growth Data Ecosystem - The Key to Successful a Growth Strategy
-description: Growth Data plays a critical role in developing and executing a successful PLG stratrgy. Learn how we applied Product, Marketing, Sales and External data to generate $60k in a week.
+description: Growth Data plays a critical role in developing and executing a successful PLG stratrgy. Learn how our experiment generated $60k ARR applying Product, Marketing, Sales and External data.
 tags:
   - plg
   - product led growth
