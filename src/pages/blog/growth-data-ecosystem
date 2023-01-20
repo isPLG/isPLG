@@ -12,6 +12,7 @@ date: 2023-01-20 15:30:00
 image: https://user-images.githubusercontent.com/14086319/211080923-2db2ebdc-52a3-4d3d-9054-31905b4e7563.gif
 category: PLG
 ---
+
 # Growth Data Ecosystem - the key to a successful PLG Strategy
 
 ## Introduction
@@ -22,7 +23,6 @@ Attempting to adopt Product Led Growth model without a sound Growth Data Strateg
 
 At the center of PLG lies the underpinning concept of “compounding growth”. What that means in simple terms is that your product acts as an acquisition engine. The example below demonstrates a simple scenario of how one such loop works for a business intelligence tool.
 
----
 
 ### **Example: PLG in a Business Intelligence Platform**
 
@@ -80,7 +80,6 @@ The design and generic implementation of Web Analytics products like Google Anal
     1. **Data Enrichment** tools like Clearbit provide a host of information about a person, a company and an anonymous web visitor with simple inputs like an email address or ip address.
     2. **Intent Signals** are third party data that can give you an idea about which companies are looking to purchase a solution that you are selling.
 
----
 
 ## How does it all come together in practice?
 
