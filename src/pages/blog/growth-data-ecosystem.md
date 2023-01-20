@@ -7,9 +7,9 @@ tags:
   - product led growth
   - data
 author: Vivek Sinha
-authorTwitter: sandhu08
+authorTwitter: 
 date: 2023-01-20 15:30:00
-image: https://user-images.githubusercontent.com/14086319/211080923-2db2ebdc-52a3-4d3d-9054-31905b4e7563.gif
+image: https://user-images.githubusercontent.com/23644719/213772223-a2c7a99f-2d11-4616-ac0c-8076c5867ed3.jpg
 category: PLG
 ---
 
