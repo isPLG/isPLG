@@ -13,11 +13,11 @@ image: https://user-images.githubusercontent.com/23644719/213772223-a2c7a99f-2d1
 category: PLG
 ---
 
-# Growth Data Ecosystem - the key to a successful PLG Strategy
-
 ## Introduction
 
 Attempting to adopt Product Led Growth model without a sound Growth Data Strategy (Collection → Analysis → Publishing → Discussion → Action) is like flying a ✈️ without a GPS - you may end up at at your destination but it will be pure luck.
+
+In this deep dive, we will go over what exactly is Growth Data and how it enables the formation and execution of a rock solid Growth strategy.
 
 ### Loops - The Core Concept of Product Led Growth
 
