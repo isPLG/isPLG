@@ -70,6 +70,7 @@ Many refrain from adding web analytics tools to their SaaS app (i.e. what you se
 You see, product analytics tools are designed as logging tools recording every action independently. You need to use complex SQL over terabytes of log type data to join those individual actions and recreate the sequence of events that you are interested in.
 
 The design and generic implementation of Web Analytics products like Google Analytics makes it extremely easy to measure the performance of in product funnels / loops / workflows. This saves hours in writing complex SQL queries to get that same insight from product analytics tools.
+
 3. **Marketing Analytics Data** refers to data from systems (like Mailchimp, Hubspot, Clearbit, LinkedIn Ads, Social Channels etc) that shows how existing users, newsletter subscribers, B2B leads, event attendees etc are engaging with your content when the outreach channel is not your own website. Marketing data is beyond essential for both New Users as well as Existing Users.
     1. **New Users:** For acquiring new users, it's essential to understand what content and in what channel is working well. 
     For example: A 1000 word article may work very well on reddit while failing to get any engagement on Facebook. Furthermore, how new users use the platform and whether they turn into long term users are essential to understand the true value of the acquisition channel from which they were acquired.
