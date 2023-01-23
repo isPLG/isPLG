@@ -28,7 +28,7 @@ At the center of PLG lies the underpinning concept of “compounding growth”. 
 
 *An artifact produced using the product can act as an asset that helps new people (prospective users) discover your product. These new prospects then sign up or further share the artifact helping more prospective users discover the product. A single artifact produced by a user on your product is able to get multiple new signups.* 
 
-![mermaid-diagram-2022-12-14-153541.svg](Growth%20Data%20Ecosystem%20-%20the%20key%20to%20a%20successful%20PL%2020335e27c45e4e659de855570f97c10e/mermaid-diagram-2022-12-14-153541.svg)
+![example-PLG-growth-loops-in-action](https://user-images.githubusercontent.com/23644719/214160685-c773494f-e237-4e8c-bc1f-f0ba30359d61.png)
 
 ---
 
@@ -65,11 +65,11 @@ Growth Data can come from various parts of the business and can be grouped into 
     
 2. **Web Analytics Data** is everything that you are capturing about how visitors spend time in your website. It includes the marketing website and often also the product website. Know what content visitors are interacting with, which signup buttons are working well, which placement of call to action is the best, which step of the signup flow has high abandonment rate are some of the typical questions that Web Analytics Data can answer. 
 
-Many refrain from adding web analytics tools to their SaaS app (i.e. what you see after you log in) for privacy and speed concerns. Personally, I think that school of thought is plain foolish. 
-
-You see, product analytics tools are designed as logging tools recording every action independently. You need to use complex SQL over terabytes of log type data to join those individual actions and recreate the sequence of events that you are interested in.
-
-The design and generic implementation of Web Analytics products like Google Analytics makes it extremely easy to measure the performance of in product funnels / loops / workflows. This saves hours in writing complex SQL queries to get that same insight from product analytics tools.
+    Many refrain from adding web analytics tools to their SaaS app (i.e. what you see after you log in) for privacy and speed concerns. Personally, I think that school of thought is plain foolish. 
+    
+    You see, product analytics tools are designed as logging tools recording every action independently. You need to use complex SQL over terabytes of log type data to join those individual actions and recreate the sequence of events that you are interested in.
+    
+    The design and generic implementation of Web Analytics products like Google Analytics makes it extremely easy to measure the performance of in product funnels / loops / workflows. This saves hours in writing complex SQL queries to get that same insight from product analytics tools.
 
 3. **Marketing Analytics Data** refers to data from systems (like Mailchimp, Hubspot, Clearbit, LinkedIn Ads, Social Channels etc) that shows how existing users, newsletter subscribers, B2B leads, event attendees etc are engaging with your content when the outreach channel is not your own website. Marketing data is beyond essential for both New Users as well as Existing Users.
     1. **New Users:** For acquiring new users, it's essential to understand what content and in what channel is working well. 
@@ -90,7 +90,7 @@ The design and generic implementation of Web Analytics products like Google Anal
 
 Growth Data plays a major role in the development of a solid PLG Strategy and the execution of Growth initiatives. When applied efficiently, Growth Data can not only describe the performance of the business but also reveal hidden growth opportunities that may exist within the product.
 
-![VENN_DIAGRAM_03-Jan-2023_16-14.svg](Growth%20Data%20Ecosystem%20-%20the%20key%20to%20a%20successful%20PL%2020335e27c45e4e659de855570f97c10e/VENN_DIAGRAM_03-Jan-2023_16-14.svg)
+![Growth-Data-Ecosystem-is-the-backbone-of-a-solid-PLG-strategy](https://user-images.githubusercontent.com/23644719/214161031-bb6269c3-9c9a-4e46-bcdd-8b13c8a8c3cb.svg)
 
 The usual application of Growth Data are:
 
