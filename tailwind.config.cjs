@@ -52,6 +52,9 @@ module.exports = {
 			p: {
 			    color: colors.dark.secondary,
 			},
+		    	bold: {
+			    color: colors.dark.secondary,
+			}
                     },
                 },
                 DEFAULT: {
