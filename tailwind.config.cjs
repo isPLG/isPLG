@@ -52,7 +52,7 @@ module.exports = {
 			p: {
 			    color: colors.dark.secondary,
 			},
-		    	bold: {
+		    	strong: {
 			    color: colors.dark.secondary,
 			}
                     },
