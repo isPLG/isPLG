@@ -24,7 +24,7 @@ In this deep dive, we will go over what exactly is Growth Data and how it enable
 At the center of PLG lies the underpinning concept of “compounding growth”. What that means in simple terms is that your product acts as an acquisition engine. The example below demonstrates a simple scenario of how one such loop works for a business intelligence tool.
 
 
-### **Example: PLG in a Business Intelligence Platform**
+### Example: PLG in a Business Intelligence Platform**
 
 *An artifact produced using the product can act as an asset that helps new people (prospective users) discover your product. These new prospects then sign up or further share the artifact helping more prospective users discover the product. A single artifact produced by a user on your product is able to get multiple new signups.* 
 
@@ -32,15 +32,15 @@ At the center of PLG lies the underpinning concept of “compounding growth”. 
 
 ---
 
-### **Growth Coefficient**
+### Growth Coefficient
 
 This concept of incrementally increasing growth is often referred to as a “**growth *loop***”. Measuring the success of these loops requires measuring how well are your loops able to achieve new conversions. 
 
 This number is often referred to as the “viral coefficient”. I hate the term \`viral\` and I’ll refer to it as the `growth` coefficient.
 
-## Why PLG \`requires\` Data?
+## Why PLG `requires` Data?
 
-PLG is almost entirely based on the concept of ******loops****** and their application in various ******[product flows](https://isplg.com/blog/what-is-plg/) .* 
+PLG is almost entirely based on the concept of **loops** and their application in various **[product flows](https://isplg.com/blog/what-is-plg/)**. 
 
 Before we get into how data guides PLG, there is just one thing that we need to state as clearly as we possibly can. 
 
@@ -49,11 +49,11 @@ Before we get into how data guides PLG, there is just one thing that we need to 
 > PLG is company strategy and for it to be successful, various parts of the business need to align towards a common outcome.
 > 
 
-You can read more about it in our previous post, [What is PLG](https://isplg.com/blog/what-is-plg/). If you prefer to rather listen, we go over this in our first episode of isPLG podcast.
+You can read more about it in our previous post, **[What is PLG](https://isplg.com/blog/what-is-plg/)**. If you prefer to rather listen, we go over this in our first episode of isPLG podcast.
 
 A solid PLG Strategy demands a clear understanding of where these growth loops apply in your product, personalizing them based on user metadata, measuring the performance of existing loops and discovering opportunities to create new loops. All of that requires web, product, marketing, sales and external data.
 
-## **Growth Data Ecosystem**
+## Growth Data Ecosystem
 
 Growth Data can come from various parts of the business and can be grouped into the following 4 categories:
 
@@ -73,11 +73,15 @@ The design and generic implementation of Web Analytics products like Google Anal
 3. **Marketing Analytics Data** refers to data from systems (like Mailchimp, Hubspot, Clearbit, LinkedIn Ads, Social Channels etc) that shows how existing users, newsletter subscribers, B2B leads, event attendees etc are engaging with your content when the outreach channel is not your own website. Marketing data is beyond essential for both New Users as well as Existing Users.
     1. **New Users:** For acquiring new users, it's essential to understand what content and in what channel is working well. 
     For example: A 1000 word article may work very well on reddit while failing to get any engagement on Facebook. Furthermore, how new users use the platform and whether they turn into long term users are essential to understand the true value of the acquisition channel from which they were acquired.
+
     2. **Existing Users:** The successful adoption of a SaaS platform requires Onboarding, Engagement, Activation, Churn Prevention and Monetization campaigns. Each of these are typically delivered via email as well as in product prompts. 
     For example: A user who hasn't opened any onboarding emails since sign up may not be able to realize the full value proposition of your product. An analysis of engagement with emails can point to who the ideal customers of a business are. They can also function as signals for Churn Prevention campaigns like in-product banners or Customer Success outreach.
+
 4. **Sales Analytics Data** is the data that a business collects about their existing B2B customers, the existing contracts and subscriptions, leads they are currently engaging with to sell, the leads that they are “warming up” for future pipeline, companies or accounts of their interest etc. B2B is where most SaaS tools make the “big money”. The sales process involves humans and human workflows. It is essential to measure the speed and effectiveness of these workflows. Specifically for Growth objectives, it is critical to record and analyze what drives B2B sales snd what.
+
 5. **External Data** refers to additional data that a business acquires (paid or public) in order to gain a higher level of visibility on account (i.e. a company), users and topics of interest. A few examples here are:
     1. **Data Enrichment** tools like Clearbit provide a host of information about a person, a company and an anonymous web visitor with simple inputs like an email address or ip address.
+
     2. **Intent Signals** are third party data that can give you an idea about which companies are looking to purchase a solution that you are selling.
 
 
@@ -95,7 +99,7 @@ The usual application of Growth Data are:
 
 Beyond that, here is a **real life case study** of the critical role data plays in Growth initiatives and how various parts of the business contribute to achieve a common growth objective.
 
-### **Case Study: How we made $60k ARR in a week with PQLs**
+### Case Study: How we made $60k ARR in a week with PQLs
 
 Back in 2019, Amandeep and I were discussing **how we could increase upgrades from free to paid plans at GitHub**. We had just finished delivering a machine learning based lead scoring algorithm that reduced Sales Team’s workload by 70% while increasing the % of qualified leads handed off to them. Essentially, our algorithm was seriously good at predicting if a lead qualifies for a Sales touch from a human. We figured we could use a similar methodology to *identify Product Qualified Leads (PQL) and reach out to them with a proposition to upgrade*.
 
