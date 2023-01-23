@@ -36,9 +36,9 @@ At the center of PLG lies the underpinning concept of “compounding growth”. 
 
 This concept of incrementally increasing growth is often referred to as a “**growth *loop***”. Measuring the success of these loops requires measuring how well are your loops able to achieve new conversions. 
 
-This number is often referred to as the “viral coefficient”. I hate the term `viral` and I’ll refer to it as the `growth` coefficient.
+This number is often referred to as the “viral coefficient”. I hate the term \`viral\` and I’ll refer to it as the `growth` coefficient.
 
-## Why PLG `requires` Data?
+## Why PLG \`requires\` Data?
 
 PLG is almost entirely based on the concept of ******loops****** and their application in various ******[product flows](https://isplg.com/blog/what-is-plg/) .* 
 
