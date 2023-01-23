@@ -87,6 +87,9 @@ module.exports = {
 			p: {
                             color: colors.secondary,
                         },
+		    	code: {
+			    color: colors.accent.pink.dark,
+			}
                     }
                 },
             }),
