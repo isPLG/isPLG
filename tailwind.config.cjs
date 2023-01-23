@@ -56,7 +56,7 @@ module.exports = {
 			    color: colors.dark.secondary,
 			},
 		    	code: {
-			    color: colors.ascent.pink.dark,
+			    color: colors.ascent.dark,
 			}
                     },
                 },
