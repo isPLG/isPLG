@@ -54,6 +54,9 @@ module.exports = {
 			},
 		    	strong: {
 			    color: colors.dark.secondary,
+			},
+		    	code: {
+			    color: colors.ascent.pink.dark,
 			}
                     },
                 },
