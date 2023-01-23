@@ -174,9 +174,9 @@ module.exports = {
                 secondary: colors.purple[500]
             },
             accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
+                pink: {
+                    dark: colors.pink[300],
+                    light: colors.pink[500]
                 },
                 default: colors.blue[700]
             }
