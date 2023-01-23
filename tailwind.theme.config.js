@@ -153,10 +153,10 @@ module.exports = {
                 secondary: colors.slate[200]
             },
             accent: {
-                gray: {
-                    lighter: colors.slate[100],
-                    light: colors.slate[300],
-                    dark: colors.slate[500]
+                pink: {
+                    lighter: colors.pink[100],
+                    light: colors.pink[300],
+                    dark: colors.pink[500]
                 },
                 default: colors.blue[700]
             }
