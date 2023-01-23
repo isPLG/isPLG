@@ -52,6 +52,12 @@ module.exports = {
 			p: {
 			    color: colors.dark.secondary,
 			},
+		    	strong: {
+			    color: colors.dark.secondary,
+			},
+		    	code: {
+			    color: colors.accent.pink.dark,
+			}
                     },
                 },
                 DEFAULT: {
@@ -81,6 +87,9 @@ module.exports = {
 			p: {
                             color: colors.secondary,
                         },
+		    	code: {
+			    color: colors.accent.pink.dark,
+			}
                     }
                 },
             }),
