@@ -106,7 +106,7 @@ Beyond that, here is a **real life case study** of the critical role data plays 
 
 Back in 2019, Amandeep and I were discussing **how we could increase upgrades from free to paid plans at GitHub**. We had just finished delivering a machine learning based lead scoring algorithm that reduced Sales Team’s workload by 70% while increasing the % of qualified leads handed off to them. Essentially, our algorithm was seriously good at predicting if a lead qualifies for a Sales touch from a human. We figured we could use a similar methodology to *identify Product Qualified Leads (PQL) and reach out to them with a proposition to upgrade*.
 
-One unique characteristic that set our team apart from others is that we would **think like product owners, analyze data like data scientists and execute like software engineers**. You will see the elements of these throughout this case study.
+One unique characteristic that set our team apart from others is that we would **think like product owners, analyze data like data scientists and execute like software engineers**. You will see the reflections of these throughout this case study.
 
 ### The problem 
 As a part of monitoring that we had set up, we noticed a we noticed a moderate decline in the revenue originating from one of the plan upgrades. Upon further research we understood that this decline started after a recent change in pricing plans which made our freemium offering a lot more robust.
