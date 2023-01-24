@@ -102,24 +102,24 @@ Some of the usual applications of Growth Data that you may be familiar with are:
 
 Beyond that, here is a **real life case study** of the critical role data plays in Growth initiatives and how various parts of the business contribute to achieve a common growth objective.
 
-### Case Study: How we made $60k ARR in a week with PQLs
+## Case Study: How we made $60k ARR in a week with PQLs
 
 Back in 2019, Amandeep and I were discussing **how we could increase upgrades from free to paid plans at GitHub**. We had just finished delivering a machine learning based lead scoring algorithm that reduced Sales Team’s workload by 70% while increasing the % of qualified leads handed off to them. Essentially, our algorithm was seriously good at predicting if a lead qualifies for a Sales touch from a human. We figured we could use a similar methodology to *identify Product Qualified Leads (PQL) and reach out to them with a proposition to upgrade*.
 
 One unique characteristic that set our team apart from others is that we would **think like product owners, analyze data like data scientists and execute like software engineers**. You will see the elements of these throughout this case study.
 
-#### The problem 
+### The problem 
 As a part of monitoring that we had set up, we noticed a we noticed a moderate decline in the revenue originating from one of the plan upgrades. Upon further research we understood that this decline started after a recent change in pricing plans which made our freemium offering a lot more robust.
 
-#### How we surfaced the problem
+### How we surfaced the problem
 We discussed this in our periodic Monthly Business Review (MBR) and brought it to the attention of the senior most leadership.
 
-#### Our proposed solution 
+### Our proposed solution 
 We don’t jump to solutions. Instead, we proposed that we run an experiment where we offer incentivized upgrades to a select part of the audience who may be “sitting on the fence” about upgrading. We identify the audience using Machine Learning. 
 
 Within 8 business days, we had the algorithm that could predict with 80% accuracy whether someone would upgrade. Read more about the data and methodology below.
 
-#### The data 
+### The data 
 This project involved many different data sources from the Growth Data Ecosystem:
 
 - **Product Analytics Data:** To get feature usage data.
@@ -128,7 +128,7 @@ This project involved many different data sources from the Growth Data Ecosystem
 - **Marketing data:** To understand if a customer has engaged with marketing content/emails/events before. This, for us, signaled an appetite to learn and explore - a precursor to an upgrade!
 - **External Data:** We used a variety of data sources like Clearbit, etc. to get data elements about a customer's business association like company size, revenue and other dimensions.
 
-#### Methodology 
+### Methodology 
 We spent a few days purely on research and then went into execution. What we wanted to do was gain a deep understanding of what makes a customer upgrade to a new plan, how can we quantify those signals into variables, and how can we use those variables to then predict the likelihood of a customer upgrading. Once we had that likelihood, we would then start thinking about marketing interventions that we could leverage.
 
 - **Study our pricing plans** in detail to understand limitations of each plan and possible needs that could lead to an upgrade. We walked through various product workflows end to end by creating test accounts and experiencing first hand the routes of upgrades.
@@ -141,6 +141,7 @@ We spent a few days purely on research and then went into execution. What we wan
 
 - **Engaged with other teams** to develop experiments and marketing interventions. We didn’t just go in blind - we had top not suggestions of how we could leverage this knowledge, where exactly on the website we could present an upgrade proposition, how we could maximize the outcomes from this experiment.
 
+### Execution
 This is how different parts of the business came together to make this initiative a success:
 
 - **Growth Analytics (my team):** After we identified the opportunity initially, **we spent the first few days studying the pricing plans, the product UI and workflows - no data, no modeling.** 
