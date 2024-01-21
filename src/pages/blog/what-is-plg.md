@@ -51,7 +51,7 @@ In our experience, the one key thing that enhances the PLG motion and can also h
 
 Your product is designed to solve a specific set of problems for your customer. In solving those problems, you build your product in a way that exemplifies a new or improved way of doing things. Not every product can create a new flow, however you can enhance the existing flow of doing things and integrate into other flows as well.
 
-Companies like GitHub have built their own flow where they have taught the world around how to contribute to open source projects (PR flow) which is exemplified via the product. Salesforce brought in the whole Lead → Contact → Account → Opportunity flow. Figma invented the new design flow in the cloud around collaboration. I am currently excited about building the web development flow at Netlify.
+Companies like GitHub have built their own flow where they have taught the world around how to contribute to open source projects (PR flow) which is exemplified via the product. Salesforce brought in the whole Lead → Contact → Account → Opportunity flow. Figma invented the new design flow in the cloud around collaboration. 
 
 Creating these flows and developing a PLG strategy go hand in hand.
 
